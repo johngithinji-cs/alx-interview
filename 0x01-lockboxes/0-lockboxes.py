@@ -19,4 +19,3 @@ def canUnlockAll(boxes):
             unopened.remove(key)
             keys_to_check.extend(boxes[key])
     return not unopened
-
