@@ -11,10 +11,6 @@ def minOperations(n):
     result in exactly n H characters in the file.
     Returns an integer
     If n is impossible to achieve, returns 0
-    n = 9
-
-    H => Copy All => Paste => HH => Paste =>HHH => Copy All => Paste => HHHHHH =>
-    Paste => HHHHHHHHH
     """
     if not isinstance(n, int):
         return 0
