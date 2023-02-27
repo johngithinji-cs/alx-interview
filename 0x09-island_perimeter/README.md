@@ -1,0 +1,1 @@
+The function island_perimeter takes a rectangular grid of 0s and 1s representing water and land, and returns the perimeter of the single island present in the grid. The island is connected horizontally/vertically, has no lakes and the grid is completely surrounded by water.
