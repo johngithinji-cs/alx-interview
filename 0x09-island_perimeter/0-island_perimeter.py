@@ -5,18 +5,11 @@
 
 def island_perimeter(grid):
     """
-    Calculate the perimeter of an island in a rectangular grid.
-
-    The grid is a list of lists of integers where 0 represents water and 1 repre    sents land.
-    The island is connected horizontally/vertically (not diagonally) and has no     lakes.
-    The grid is completely surrounded by water and there is only one island.
-    The function returns an integer representing the perimeter of the island.
-
-    Parameters:
-    - grid: A rectangular grid of 0s and 1s representing water and land.
-
-    Returns:
-    - An integer representing the perimeter of the single island present in the     grid.
+    Calculates the perimeter of the island described in grid
+    Args:
+        grid: 2d list of integers containing 0(water) or 1(land)
+    Return:
+        the perimeter of the island
     """
 
     perimeter = 0
